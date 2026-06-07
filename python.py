@@ -1,16 +1,15 @@
-n1=10
-n2=20
+name="Akshaya"
+msg="hello "+name+" How are you"
+print(msg)
 
-print(n1+n2)  # Addition
-print(n1-n2)  # Subtraction
-print(n1*n2)  # Multiplication
-print(n1/n2)  # Division
-print(n1%n2)  # Modulus
-print(n1**n2) # Power
-print(pow(n1,n2))  # Power
+# Positional Arguments
 
+student_name="Akshaya"
+age=23
+msg = "Hi, iam {s_name}. iam {a} years old." .format(s_name=student_name,a=age)
+print(msg)
 
-# Typecasting
+#F string 
 
-avg=10.89
-print(int(avg)) 
+msg= f"Hi, iam {student_name}. iam {age} years old."
+print(msg)
