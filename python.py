@@ -1,13 +1,16 @@
-# Example of Immutable the id value is  changed
-# int,float,String,....
+n1=10
+n2=20
 
-age=18
-print(age, id(age))
+print(n1+n2)  # Addition
+print(n1-n2)  # Subtraction
+print(n1*n2)  # Multiplication
+print(n1/n2)  # Division
+print(n1%n2)  # Modulus
+print(n1**n2) # Power
+print(pow(n1,n2))  # Power
 
-#id gives unique value for all
 
-age=20
-print(age, id(age))
+# Typecasting
 
-# Example of Mutable
-#class, object, .....
+avg=10.89
+print(int(avg)) 
