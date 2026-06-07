@@ -1,8 +1,13 @@
-x=10
-y=10.90
-z="Akshaya"
-a='comstream'
+# Example of Immutable the id value is  changed
+# int,float,String,....
 
-add_no, stud_name, age, is_passed = (101,"Akshaya",23,True)
+age=18
+print(age, id(age))
 
-print(x,y,z,a,add_no,stud_name,age,is_passed)
+#id gives unique value for all
+
+age=20
+print(age, id(age))
+
+# Example of Mutable
+#class, object, .....
