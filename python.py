@@ -1,15 +1,81 @@
-name="Akshaya"
-msg="hello "+name+" How are you"
-print(msg)
+# String Functions
 
-# Positional Arguments
+# Capitalize
 
-student_name="Akshaya"
-age=23
-msg = "Hi, iam {s_name}. iam {a} years old." .format(s_name=student_name,a=age)
-print(msg)
+m="hello".capitalize()
+print(m)
 
-#F string 
+# upper
 
-msg= f"Hi, iam {student_name}. iam {age} years old."
-print(msg)
+m="hello".upper()
+print(m)
+
+# Lower
+
+m="hello".lower()
+print(m)
+
+# Swap
+
+m="hello".swapcase()
+print(m)
+
+m="HELLO".swapcase()
+print(m)
+
+# len
+
+m="hello".__len__()
+print(m)
+
+# startswith
+
+prod_name="Men's T shirts"
+m=prod_name.startswith("Men")
+print(m)
+
+prod_name="Men's T shirts"
+m=prod_name.startswith("Girl")
+print(m)
+
+# endswith
+
+prod_name="Men's T shirts"
+m=prod_name.endswith("shirts")
+print(m)
+
+# count
+
+prod_name="Men's T shirts"
+m=prod_name.count("Men")
+print(m)
+
+# find
+
+prod_name="Men's T shirts"
+m=prod_name.find("T")
+print(m)
+
+# Split
+
+prod_name="Men's T shirts"
+m=prod_name.split(" ")
+print(m)
+
+# isnumeric
+
+phone="1256833"
+m=phone.isnumeric()
+print(m)
+
+# isalpha
+
+name='Akshaya'
+m=name.isalpha()
+print(m)
+
+# isalnum
+
+password="Upcode123"
+m=password.isalnum()
+print(m)
