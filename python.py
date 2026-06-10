@@ -1,81 +1,60 @@
-# String Functions
+# List 
 
-# Capitalize
+score = [12,34,89]
+names=["Akshaya", "Kavya", "Bhavana", "Fadiya"]
 
-m="hello".capitalize()
-print(m)
+print(score,names)
 
-# upper
+# Methods
+# 1 Retrieve Values
+print(score[2],names[3])
 
-m="hello".upper()
-print(m)
+# 2 Assign values
 
-# Lower
+score[0]=13
+print(score)
 
-m="hello".lower()
-print(m)
+# 3 Length
 
-# Swap
+print(len(score))
 
-m="hello".swapcase()
-print(m)
+# 4 Add new value
 
-m="HELLO".swapcase()
-print(m)
+score.append(60)
+print(score)
 
-# len
+# 5 Insert
 
-m="hello".__len__()
-print(m)
+score.insert(2,89)
+print(score)
 
-# startswith
+# 6 Remove
 
-prod_name="Men's T shirts"
-m=prod_name.startswith("Men")
-print(m)
+score.remove(13)
+print(score)
 
-prod_name="Men's T shirts"
-m=prod_name.startswith("Girl")
-print(m)
+# 7 Pop(Remove)
 
-# endswith
+score.pop(2)
+print(score)
 
-prod_name="Men's T shirts"
-m=prod_name.endswith("shirts")
-print(m)
+# 8 Reverse
 
-# count
+score.reverse()
+print(score)
 
-prod_name="Men's T shirts"
-m=prod_name.count("Men")
-print(m)
+# 9 Sorting
 
-# find
+names.sort()
+print(names)
 
-prod_name="Men's T shirts"
-m=prod_name.find("T")
-print(m)
+score.sort()
+print(score)
 
-# Split
+#10 Sort By Descending
 
-prod_name="Men's T shirts"
-m=prod_name.split(" ")
-print(m)
+names.sort(reverse=True)
+print(names)
 
-# isnumeric
-
-phone="1256833"
-m=phone.isnumeric()
-print(m)
-
-# isalpha
-
-name='Akshaya'
-m=name.isalpha()
-print(m)
-
-# isalnum
-
-password="Upcode123"
-m=password.isalnum()
-print(m)
+score.sort(reverse=True)
+print(score)
